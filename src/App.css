@@ -304,6 +304,15 @@ a {
   color: #2563eb;
 }
 
+.internationalExperience {
+  border-left: 3px solid #16a34a;
+}
+
+.internationalType {
+  background: #f0fdf4;
+  color: #16a34a;
+}
+
 
 /* LÍNEA */
 

@@ -151,6 +151,56 @@ function App() {
 
           <div className="timeline">
 
+            {/* EXPERIENCIA INTERNACIONAL */}
+            <article className="experienceItem">
+
+              <div className="experienceDate">
+                <span>2025</span>
+                <span>Estados Unidos</span>
+              </div>
+
+              <div className="timelineMarker">
+                <div className="timelineDot"></div>
+              </div>
+
+              <div className="experienceCard internationalExperience">
+
+                <div className="experienceHeader">
+                  <div>
+                    <h3>Programa de Intercambio Internacional</h3>
+                    <h4>Estados Unidos</h4>
+                  </div>
+
+                  <span className="experienceType internationalType">
+                    Experiencia Internacional
+                  </span>
+                </div>
+
+                <p>
+                  Participación en un programa de intercambio en Estados Unidos,
+                  enfocado en inmersión cultural y fortalecimiento del inglés en
+                  un entorno internacional.
+                </p>
+
+                <ul>
+                  <li>Fortalecimiento de habilidades de comunicación en inglés.</li>
+                  <li>Adaptación a un entorno multicultural e internacional.</li>
+                  <li>Desarrollo de autonomía y habilidades interpersonales.</li>
+                  <li>Experiencia de inmersión cultural en Estados Unidos.</li>
+                </ul>
+
+                <div className="experienceTags">
+                  <span>English</span>
+                  <span>International Experience</span>
+                  <span>Adaptability</span>
+                  <span>Communication</span>
+                </div>
+
+              </div>
+
+            </article>
+
+
             {/* NEORIS */}
             <article className="experienceItem">
 
