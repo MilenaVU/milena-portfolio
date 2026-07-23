@@ -42,14 +42,37 @@ a {
 }
 
 .logo {
-  font-size: 28px;
-  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
   color: #0f172a;
 }
 
-.logo span {
+.logoImage {
+  width: 45px;
+  height: 45px;
+
+  object-fit: contain;
+  border-radius: 50%;
+
+  transition: transform 0.3s ease;
+}
+
+.logoText {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.logoText span {
   color: #2563eb;
 }
+
+.logo:hover .logoImage {
+  transform: rotate(-8deg) scale(1.08);
+}
+
+
 
 .navLinks {
   display: flex;

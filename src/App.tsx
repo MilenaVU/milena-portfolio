@@ -6,7 +6,15 @@ function App() {
       <header className="header">
         <nav className="navbar">
           <a href="#inicio" className="logo">
-            MV<span>.</span>
+            <img
+              src="/favicon.svg"
+              alt="Logo Milena Vargas"
+              className="logoImage"
+            />
+
+            <div className="logoText">
+              MV<span>.</span>
+            </div>
           </a>
 
           <div className="navLinks">
