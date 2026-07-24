@@ -63,7 +63,12 @@ function App() {
             </p>
 
             <div className="heroButtons">
-              <a href="#proyectos" className="primaryButton">
+              <a
+                href="https://github.com/MilenaVU"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="primaryButton"
+              >
                 Ver mis proyectos
               </a>
 

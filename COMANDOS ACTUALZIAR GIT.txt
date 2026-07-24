@@ -1,0 +1,6 @@
+git add .
+git commit -m "Descripcion del cambio"
+git push
+
+git commit -m "Actualizacion Experiencia 2025"
+git status
