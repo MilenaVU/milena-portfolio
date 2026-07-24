@@ -29,7 +29,7 @@ function App() {
 
           <a
             href="/ACMilena_Vargas_CV.pdf"
-            download
+            download="ACMilena_Vargas_CV.pdf"
             className="cvButton"
           >
             Descargar CV
